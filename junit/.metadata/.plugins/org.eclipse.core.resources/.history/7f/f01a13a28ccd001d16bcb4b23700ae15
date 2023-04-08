@@ -1,0 +1,22 @@
+package org.junitTesting;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebElement;
+
+public class FbLoginJunit extends BaseClass{
+	@BeforeClass
+	public static void launchBrowser() {
+		 LaunchTheBrowser();
+		 LaunchUrl("https://www.facebook.com/");
+	}
+	@Test
+	public void tc1() {
+		fbPojo f = new fbPojo();
+		PassText("priya", f.getEmail());
+	}
+
+	public static void PassText(String s , WebElement e) {
+	       e.sendKeys(s);
+	}
+}

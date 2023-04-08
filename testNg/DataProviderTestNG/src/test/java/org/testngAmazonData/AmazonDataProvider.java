@@ -1,0 +1,28 @@
+package org.testngAmazonData;
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class AmazonDataProvider extends BaseClass {
+@DataProvider(name="aData")
+public Object[][] data() {
+return new Object[][] {
+	{"Shoes"},
+	{"bags"},
+	{"iphones"},
+	{"Chocolates"}
+};}
+@Test(dataProvider = "aData")
+private void tc1(String s) throws AWTException {
+LaunchTheBrowser();
+LaunchUrl("https://www.amazon.in/");
+WebElement search = driver.findElement(By.id("twotabsearchtextbox"));
+search.sendKeys(s);
+Robot r = new Robot();
+r.keyPress(KeyEvent.VK_ENTER);
+r.keyRelease(KeyEvent.VK_ENTER);
+}}

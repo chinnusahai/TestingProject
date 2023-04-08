@@ -1,0 +1,17 @@
+package org.pojo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class loginFB extends BaseClass {
+
+	public static void main(String[] args) {
+
+		LaunchTheBrowser();
+		LaunchUrl("https://www.facebook.com/");
+		
+		WebElement email = driver.findElement(By.id("email"));
+		PassText("selenium", email);
+	}
+
+}

@@ -1,0 +1,28 @@
+package org.junitTesting;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class FbLoginJunit extends BaseClass{
+	
+	
+	@BeforeClass
+	public static void launchBrowser() {
+		 LaunchTheBrowser();
+		 LaunchUrl("https://www.facebook.com/");
+	} 	
+	@Before
+	public static void 
+	@Test
+	public void tc1() {
+		FbLoginpojo f = new FbLoginpojo();
+		PassText("selenium", f.getMail());
+		
+		PassText("priya", f.getPass());
+		
+		driver.navigate().refresh();
+		PassText("josh", f.getMail());
+		PassText("shara", f.getPass());
+	}
+}

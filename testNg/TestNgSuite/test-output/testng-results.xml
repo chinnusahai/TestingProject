@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="14" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T11:28:05Z" name="Suite" finished-at="2023-03-30T11:29:08Z" duration-ms="63047">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T11:28:05Z" name="Test" finished-at="2023-03-30T11:29:08Z" duration-ms="63047">
+      <class name="org.testng.ProjectTestNG">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:05Z" name="LaunchBrowser" finished-at="2023-03-30T11:28:53Z" duration-ms="47774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="tc3()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:53Z" name="tc3" finished-at="2023-03-30T11:28:57Z" duration-ms="3894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:53Z" name="StartDate" finished-at="2023-03-30T11:28:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:57Z" name="EndDate" finished-at="2023-03-30T11:28:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method signature="tc1()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:57Z" name="tc1" finished-at="2023-03-30T11:29:00Z" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:28:57Z" name="StartDate" finished-at="2023-03-30T11:28:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:00Z" name="EndDate" finished-at="2023-03-30T11:29:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:00Z" name="StartDate" finished-at="2023-03-30T11:29:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method signature="tc1()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:00Z" name="tc1" finished-at="2023-03-30T11:29:02Z" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:02Z" name="EndDate" finished-at="2023-03-30T11:29:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method signature="tc1()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:02Z" name="tc1" finished-at="2023-03-30T11:29:04Z" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:02Z" name="StartDate" finished-at="2023-03-30T11:29:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:04Z" name="StartDate" finished-at="2023-03-30T11:29:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:04Z" name="EndDate" finished-at="2023-03-30T11:29:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method signature="tc1()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:04Z" name="tc1" finished-at="2023-03-30T11:29:05Z" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="StartDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:05Z" name="StartDate" finished-at="2023-03-30T11:29:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDate -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:05Z" name="EndDate" finished-at="2023-03-30T11:29:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method signature="tc5()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:05Z" name="tc5" finished-at="2023-03-30T11:29:08Z" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="EndDate()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:08Z" name="EndDate" finished-at="2023-03-30T11:29:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDate -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.testng.ProjectTestNG@48075da3]" started-at="2023-03-30T11:29:08Z" name="closeBrowser" finished-at="2023-03-30T11:29:08Z" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testng.ProjectTestNG -->
+      <class name="org.testng.PriorityTestNg">
+        <test-method signature="tc7()[pri:-22, instance:org.testng.PriorityTestNg@68c9133c]" started-at="2023-03-30T11:28:05Z" name="tc7" finished-at="2023-03-30T11:28:05Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+        <test-method signature="tc5()[pri:-2, instance:org.testng.PriorityTestNg@68c9133c]" started-at="2023-03-30T11:28:05Z" name="tc5" finished-at="2023-03-30T11:28:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method signature="tc1()[pri:0, instance:org.testng.PriorityTestNg@68c9133c]" started-at="2023-03-30T11:29:08Z" name="tc1" finished-at="2023-03-30T11:29:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:5, instance:org.testng.PriorityTestNg@68c9133c]" started-at="2023-03-30T11:29:08Z" name="tc2" finished-at="2023-03-30T11:29:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.testng.PriorityTestNg -->
+      <class name="org.testng.A">
+        <test-method signature="tc11()[pri:0, instance:org.testng.A@7a35b0f5]" started-at="2023-03-30T11:29:08Z" name="tc11" finished-at="2023-03-30T11:29:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11 -->
+        <test-method signature="tc22()[pri:0, instance:org.testng.A@7a35b0f5]" started-at="2023-03-30T11:29:08Z" name="tc22" finished-at="2023-03-30T11:29:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc22 -->
+        <test-method signature="tc33()[pri:0, instance:org.testng.A@7a35b0f5]" started-at="2023-03-30T11:29:08Z" name="tc33" finished-at="2023-03-30T11:29:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc33 -->
+      </class> <!-- org.testng.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

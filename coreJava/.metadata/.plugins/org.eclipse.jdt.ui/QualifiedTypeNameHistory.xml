@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.lang.stateDetail"/>
+    <fullyQualifiedTypeName name="org.lang.langDetails"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicEditorPaneUI"/>
+    <fullyQualifiedTypeName name="org.edu.Engineering"/>
+    <fullyQualifiedTypeName name="org.edu.Education"/>
+    <fullyQualifiedTypeName name="org.edu.Medical"/>
+    <fullyQualifiedTypeName name="org.cus.Customer"/>
+    <fullyQualifiedTypeName name="org.edu.Arts"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="empDetails"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="org.interfaceStudents.Student"/>
+    <fullyQualifiedTypeName name="org.interfaceStudents.studentDETAILS"/>
+    <fullyQualifiedTypeName name="conditionalStatements.ClientNestedIF"/>
+</qualifiedTypeNameHistroy>

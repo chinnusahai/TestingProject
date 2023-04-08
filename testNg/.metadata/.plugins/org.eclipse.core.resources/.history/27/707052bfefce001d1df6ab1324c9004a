@@ -1,0 +1,16 @@
+package org.testng;	
+
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+public class fbLginTestNG extends BaseClass{
+	@Parameters({"user","pass"})
+@Test
+private void tc1(@Optional("asc") String e,@Optional("priya") String p) {
+LaunchTheBrowser();
+LaunchUrl("https://www.facebook.com/");
+FbLoginpojo f = new FbLoginpojo();
+PassText(e, f.getMail());
+PassText(p, f.getPass());
+	}
+}

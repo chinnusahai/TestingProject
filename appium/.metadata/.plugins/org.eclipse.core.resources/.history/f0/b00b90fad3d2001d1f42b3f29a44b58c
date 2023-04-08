@@ -1,0 +1,18 @@
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class RCalender {
+
+	public static void main(String[] args) {
+//Same as system.setProperties webdeiver.chrome.driver/ 
+// to give device details
+DesiredCapabilities cap = new DesiredCapabilities();
+cap.setCapability("platformName","Android");
+cap.setCapability("platformVersion","12");
+cap.setCapability("deviceName","V2151");
+cap.setCapability("udid","13862558020002Z");
+cap.setCapability("appPackage","com.google.android.calender");
+cap.setCapability("appActivity","com.android.calender.LaunchActivity");
+
+	}
+
+}

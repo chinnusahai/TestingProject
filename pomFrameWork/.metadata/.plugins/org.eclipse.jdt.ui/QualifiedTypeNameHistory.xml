@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.base.BaseClass"/>
+    <fullyQualifiedTypeName name="fbPojo.FbLOgin"/>
+    <fullyQualifiedTypeName name="fbPojo.FbLOginPOJO"/>
+    <fullyQualifiedTypeName name="fbPojo.FacebookStale"/>
+    <fullyQualifiedTypeName name="org.pojo.FbLogin"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.bouncycastle.cms.PasswordRecipientId"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="org.pojo.BaseClass"/>
+    <fullyQualifiedTypeName name="org.pojo.FbLoginpojo"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindAll"/>
+</qualifiedTypeNameHistroy>

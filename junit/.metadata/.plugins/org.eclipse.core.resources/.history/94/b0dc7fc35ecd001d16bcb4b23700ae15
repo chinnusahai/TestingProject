@@ -1,0 +1,18 @@
+package org.junitTesting;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class FbLoginJunit extends BaseClass{
+	@BeforeClass
+	private void launchBrowser() {
+		 LaunchTheBrowser();
+		 LaunchUrl("https://www.facebook.com/");
+	}
+	@Test
+	private void tc1() {
+		FbLOginPojo f = new FbLOginPojo();
+		PassText("selenium", f.getEmail());
+	}
+
+}

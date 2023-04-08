@@ -1,0 +1,30 @@
+package fbPojo;
+
+import org.base.BaseClass;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class FacebookStaleException extends BaseClass{
+
+	public static void main(String[] args) {
+		LaunchBrowser();
+		launchURL("https://en-gb.facebook.com/");
+		windowMaximize();
+		
+        WebElement email = driver.findElement(By.id("email"));
+        passText("selenium", email);
+        WebElement password = driver.findElement(By.id("pass"));
+        passText("inmakes", password);
+        WebElement loginButton = driver.findElement(By.name("login"));
+        loginButton.click();
+
+        //to refresh page
+        driver.navigate().refresh();
+        
+        email.sendKeys("email");
+        password.sendKeys("00password");
+        loginButton.click();
+
+		
+	}
+}

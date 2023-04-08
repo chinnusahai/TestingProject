@@ -1,0 +1,9 @@
+package org.apiRrstAssures;
+
+import org.testng.annotations.Test;
+
+public class TestngAPI {
+	@Test
+	getRequesr
+
+}

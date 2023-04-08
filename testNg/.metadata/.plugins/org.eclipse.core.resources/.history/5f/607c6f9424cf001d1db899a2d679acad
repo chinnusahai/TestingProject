@@ -1,0 +1,31 @@
+package org.testng;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+public class CrossbrowserTestNG extends BaseClass {
+	@Test(invocationCount = 4)
+	private void tc1() {
+		LaunchUrl("https://www.amazon.in/");
+	}@Test
+	private void tc5() {
+		LaunchUrl("https://www.flipkart.com/");
+	}@Test
+	private void tc3() {
+		WebDriverManager.edgedriver().setup();
+		WebDriver d = new EdgeDriver();
+		LaunchUrl("https://www.myntra.com/");
+	}@Test
+	private void LaunchBrowser() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver d = new ChromeDriver();
+		LaunchUrl("https://www.google.com/");
+	}@AfterClass
+	private void closeBrowser() {
+		CloseTheBrowser();
+	}
+	
+}

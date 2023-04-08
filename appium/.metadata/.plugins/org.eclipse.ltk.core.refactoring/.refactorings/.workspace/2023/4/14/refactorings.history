@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;AppiumProject&apos; to &apos;AppiumProjectRevivion&apos;" description="Rename resource &apos;AppiumProject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AppiumProject" name="AppiumProjectRevivion" stamp="1680602990948" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;AppiumProjectRevivion&apos; to &apos;AppiumProjectRevision&apos;" description="Rename resource &apos;AppiumProjectRevivion&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AppiumProjectRevivion" name="AppiumProjectRevision" stamp="1680603010076" updateReferences="true"/>
+</session>

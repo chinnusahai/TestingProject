@@ -1,0 +1,25 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class RCalender {
+public static void main(String[] args) throws MalformedURLException {
+	//Same as system.setProperties webdeiver.chrome.driver/ 
+// to give device details
+DesiredCapabilities cap = new DesiredCapabilities();
+cap.setCapability("platformName","Android");
+cap.setCapability("platformversion","12");
+cap.setCapability("deviceName","V2151");
+cap.setCapability("udid","13862558020002Z");
+cap.setCapability("appPackage","com.vivo.calculator");
+cap.setCapability("appActivity","com.vivo.calculator.Calculator");
+
+URL url = new URL("http://0.0.0.0:4723/wd/hub");///wd/hub for version v1 in appium
+AndroidDriver ad = new AndroidDriver(url,cap);
+}
+
+}
+ 

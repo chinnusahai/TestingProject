@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T16:37:32Z" name="Default suite" finished-at="2023-03-11T16:37:35Z" duration-ms="2499">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T16:37:32Z" name="Default test" finished-at="2023-03-11T16:37:35Z" duration-ms="2499">
+      <class name="org.apiRestAssured.TestngAPI">
+        <test-method signature="getRequest()[pri:0, instance:org.apiRestAssured.TestngAPI@4d1bf319]" started-at="2023-03-11T16:37:32Z" name="getRequest" finished-at="2023-03-11T16:37:35Z" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+      </class> <!-- org.apiRestAssured.TestngAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

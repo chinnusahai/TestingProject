@@ -1,0 +1,39 @@
+package org.calc;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class RChrome {
+
+	public static void main(String[] args) throws MalformedURLException {
+		//Same as system.setProperties webdeiver.chrome.driver/ 
+	// to give device details
+	DesiredCapabilities cap = new DesiredCapabilities();
+	cap.setCapability("platformName","Android");
+	cap.setCapability("platformversion","12");
+	cap.setCapability("deviceName","V2151");
+	cap.setCapability("udid","13862558020002Z");
+	cap.setCapability("appPackage","com.android.chrome");
+	cap.setCapability("appActivity","com.google.android.apps.chrome.Main");
+	URL url = new URL("http://0.0.0.0:4723/wd/hub");///wd/hub for version v1 in appium
+	AndroidDriver ad = new AndroidDriver(url,cap);
+	WebElement accept = ad.findElement(By.id("com.android.chrome:id/terms_accept"));
+	accept.click();
+	WebElement no = ad.findElement(By.id("com.android.chrome:id/positive_button"));
+	no.click();
+	WebElement no1 = ad.findElement(By.id("com.android.chrome:id/negative_button"));
+	no1.click();
+	WebElement home = ad.findElement(By.id("com.android.chrome:id/home_button"));
+	home.click();
+	WebElement search = ad.findElement(By.id("com.android.chrome:id/search_box_text"));
+	search.click();
+	WebElement urlbar = ad.findElement(By.id("com.android.chrome:id/url_bar"));
+	urlbar.sendKeys("mobiles");
+
+	}}

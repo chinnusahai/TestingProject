@@ -1,0 +1,42 @@
+package org.testngHardAssert;
+
+import java.util.Date;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+public class ProjectTestNG extends BaseClass {
+	@Test(invocationCount = 4)
+	private void tc1() {
+		LaunchUrl("https://www.amazon.in/");
+	}@Test
+	private void tc5() {
+		LaunchUrl("https://www.flipkart.com/");
+	}
+	@Test(enabled= false)
+	//skips this test case
+	private void tc2() {
+		LaunchUrl("https://www.snapdeal.com/");
+	}@Test
+	private void tc3() {
+		LaunchUrl("https://www.myntra.com/"
+				+ "");
+	}@BeforeMethod
+	private void StartDate() {
+		Date d = new Date();
+		System.out.println("Start Date"+d);
+	}@AfterMethod
+	private void EndDate() {
+		Date d = new Date();
+		System.out.println("End Date"+d);
+	}@BeforeClass
+	private void LaunchBrowser() {
+		LaunchTheBrowser();
+		LaunchUrl("https://www.google.com/");
+	}@AfterClass
+	private void closeBrowser() {
+		CloseTheBrowser();
+	}
+	
+}

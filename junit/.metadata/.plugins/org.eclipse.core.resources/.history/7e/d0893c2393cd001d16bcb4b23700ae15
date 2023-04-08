@@ -1,0 +1,37 @@
+package org.junitTesting;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FbLoginJunit {
+	
+	@FindBy(id = "email")
+	private WebElement email;
+	
+	@FindBy(name = "pass")
+	private WebElement password;
+	
+	private static WebDriver driver;
+	
+	@BeforeClass
+	public static void setUp() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		PageFactory.initElements(driver, FbLoginJunit.class);
+	}
+	
+	@Test
+	public void testLogin() {
+		email.sendKeys("priya");
+		password.sendKeys("priya");
+	}
+	
+}

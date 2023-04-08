@@ -1,0 +1,20 @@
+package org.junitSuite;
+
+import org.junit.Test;
+
+public class B {
+	@Test
+	private void tcB1() {
+	System.out.println("B1");
+	}
+	@Test
+	private void tcB2() {
+	System.out.println("B2");
+	}@Test
+	private void tcB5() {
+	System.out.println("B5");
+	}@Test
+	private void tcB4() {
+	System.out.println("B4");
+	} 
+}

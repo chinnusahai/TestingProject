@@ -1,0 +1,26 @@
+package org.testng;
+
+import org.testng.annotations.Test;
+
+public class PriorityTestNg {
+
+	@Test
+	private void tc2() {
+		// TODO Auto-generated method stub
+
+	}
+	@Test
+	private void tc5() {
+		// TODO Auto-generated method stub
+
+	}@Test
+	private void tc1() {
+		// TODO Auto-generated method stub
+
+	}
+	@Test
+	private void tc7() {
+		// TODO Auto-generated method stub
+
+	}
+}

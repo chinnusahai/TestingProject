@@ -1,0 +1,13 @@
+package fbPojo;
+
+import org.base.BaseClass;
+
+public class Fbook extends BaseClass{
+
+	public static void main(String[] args) {
+		LaunchBrowser();
+		launchURL("https://www.facebook.com/");
+	}
+	
+	
+}
